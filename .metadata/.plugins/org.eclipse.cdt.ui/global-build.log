@@ -1,0 +1,656 @@
+12:18:43 **** Rebuild of configuration Debug for project virtual-cricket-game ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\virtual-cricket-game.o" "..\\src\\virtual-cricket-game.cpp" 
+g++ -o virtual-cricket-game.exe "src\\virtual-cricket-game.o" 
+Info: Nothing to build for virtual-cricket-game
+13:46:22 **** Incremental Build of configuration Debug for project virtual-cricket-game ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\team.o" "..\\src\\team.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\player.o" "..\\src\\player.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\game.o" "..\\src\\game.cpp" 
+..\src\game.cpp:30:1: error: 'vois' does not name a type; did you mean 'void'?
+   30 | vois Game::welcome(){
+      | ^~~~
+      | void
+13:46:38 **** Incremental Build of configuration Debug for project virtual-cricket-game ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\virtual-cricket-game.o" "..\\src\\virtual-cricket-game.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\game.o" "..\\src\\game.cpp" 
+..\src\game.cpp: In member function 'void Game::welcome()':
+..\src\game.cpp:31:3: error: 'cout' was not declared in this scope; did you mean 'std::cout'?
+   31 |   cout << "---------------------------------------" << endl;
+      |   ^~~~
+      |   std::cout
+In file included from ..\src\game.h:1,
+                 from ..\src\game.cpp:1:
+c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\iostream:61:18: note: 'std::cout' declared here
+   61 |   extern ostream cout;  /// Linked to standard output
+      |                  ^~~~
+..\src\game.cpp:31:56: error: 'endl' was not declared in this scope; did you mean 'std::endl'?
+   31 |   cout << "---------------------------------------" << endl;
+      |                                                        ^~~~
+      |                                                        std::endl
+In file included from c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\iostream:39,
+                 from ..\src\game.h:1,
+                 from ..\src\game.cpp:1:
+c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:599:5: note: 'std::endl' declared here
+  599 |     endl(basic_ostream<_CharT, _Traits>& __os)
+      |     ^~~~
+13:47:09 **** Incremental Build of configuration Debug for project virtual-cricket-game ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\game.o" "..\\src\\game.cpp" 
+..\src\game.cpp: In member function 'void Game::welcome()':
+..\src\game.cpp:31:3: error: 'cout' was not declared in this scope; did you mean 'std::cout'?
+   31 |   cout << "---------------------------------------" << endl;
+      |   ^~~~
+      |   std::cout
+In file included from ..\src\game.h:1,
+                 from ..\src\game.cpp:1:
+c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\iostream:61:18: note: 'std::cout' declared here
+   61 |   extern ostream cout;  /// Linked to standard output
+      |                  ^~~~
+..\src\game.cpp:31:56: error: 'endl' was not declared in this scope; did you mean 'std::endl'?
+   31 |   cout << "---------------------------------------" << endl;
+      |                                                        ^~~~
+      |                                                        std::endl
+In file included from c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\iostream:39,
+                 from ..\src\game.h:1,
+                 from ..\src\game.cpp:1:
+c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:599:5: note: 'std::endl' declared here
+  599 |     endl(basic_ostream<_CharT, _Traits>& __os)
+      |     ^~~~
+13:48:04 **** Incremental Build of configuration Debug for project virtual-cricket-game ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\game.o" "..\\src\\game.cpp" 
+g++ -o virtual-cricket-game.exe "src\\game.o" "src\\player.o" "src\\team.o" "src\\virtual-cricket-game.o" 
+14:00:05 **** Incremental Build of configuration Debug for project virtual-cricket-game ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\game.o" "..\\src\\game.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\virtual-cricket-game.o" "..\\src\\virtual-cricket-game.cpp" 
+g++ -o virtual-cricket-game.exe "src\\game.o" "src\\player.o" "src\\team.o" "src\\virtual-cricket-game.o" 
+Info: Nothing to build for virtual-cricket-game
+Info: Nothing to build for virtual-cricket-game
+14:42:05 **** Incremental Build of configuration Debug for project virtual-cricket-game ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\virtual-cricket-game.o" "..\\src\\virtual-cricket-game.cpp" 
+g++ -o virtual-cricket-game.exe "src\\game.o" "src\\player.o" "src\\team.o" "src\\virtual-cricket-game.o" 
+14:42:21 **** Incremental Build of configuration Debug for project virtual-cricket-game ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\virtual-cricket-game.o" "..\\src\\virtual-cricket-game.cpp" 
+g++ -o virtual-cricket-game.exe "src\\game.o" "src\\player.o" "src\\team.o" "src\\virtual-cricket-game.o" 
+14:42:35 **** Incremental Build of configuration Debug for project virtual-cricket-game ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\virtual-cricket-game.o" "..\\src\\virtual-cricket-game.cpp" 
+g++ -o virtual-cricket-game.exe "src\\game.o" "src\\player.o" "src\\team.o" "src\\virtual-cricket-game.o" 
+14:46:21 **** Incremental Build of configuration Debug for project virtual-cricket-game ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\virtual-cricket-game.o" "..\\src\\virtual-cricket-game.cpp" 
+g++ -o virtual-cricket-game.exe "src\\game.o" "src\\player.o" "src\\team.o" "src\\virtual-cricket-game.o" 
+15:14:03 **** Incremental Build of configuration Debug for project virtual-cricket-game ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\virtual-cricket-game.o" "..\\src\\virtual-cricket-game.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\team.o" "..\\src\\team.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\player.o" "..\\src\\player.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\game.o" "..\\src\\game.cpp" 
+..\src\game.cpp:63:5: error: no declaration matches 'int Game::takeIntegerInput()'
+   63 | int Game::takeIntegerInput(){
+      |     ^~~~
+..\src\game.cpp:63:5: note: no functions named 'int Game::takeIntegerInput()'
+In file included from ..\src\game.cpp:1:
+..\src\game.h:8:7: note: 'class Game' defined here
+    8 | class Game{
+      |       ^~~~
+..\src\game.cpp: In member function 'void Game::selectPlayers()':
+..\src\game.cpp:85:37: error: expected primary-expression before '<<' token
+   85 |    cout<<endl<<"Select player "<<i+!<<"of Team A- ";
+      |                                     ^~
+..\src\game.cpp:86:27: error: 'takeIntegerInput' was not declared in this scope; did you mean 'takeIntergerInput'?
+   86 |    int playerIndexTeamA = takeIntegerInput();
+      |                           ^~~~~~~~~~~~~~~~
+      |                           takeIntergerInput
+..\src\game.cpp:91:16: error: 'validateSelectedPlayer' was not declared in this scope
+   91 |    } else if (!validateSelectedPlayer(playerIndexTeamA)) {
+      |                ^~~~~~~~~~~~~~~~~~~~~~
+..\src\game.cpp:98:12: error: 'class Team' has no member named 'players'; did you mean 'player'?
+   98 |      teamA.players.push_back(teamAPlayer);
+      |            ^~~~~~~
+      |            player
+..\src\game.cpp:110:16: error: 'validateSelectedPlayer' was not declared in this scope
+  110 |    } else if (!validateSelectedPlayer(playerIndexTeamB)) {
+      |                ^~~~~~~~~~~~~~~~~~~~~~
+..\src\game.cpp:116:15: error: 'class Team' has no member named 'players'; did you mean 'player'?
+  116 |         teamB.players.push_back(teamBPlayer);
+      |               ^~~~~~~
+      |               player
+..\src\game.cpp:84:3: warning: label 'teamAselection' defined but not used [-Wunused-label]
+   84 |   teamAselection:
+      |   ^~~~~~~~~~~~~~
+..\src\game.cpp:90:11: error: label 'teamASelection' used but not defined
+   90 |      goto teamASelection;
+      |           ^~~~~~~~~~~~~~
+15:14:20 **** Incremental Build of configuration Debug for project virtual-cricket-game ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\game.o" "..\\src\\game.cpp" 
+..\src\game.cpp:63:5: error: no declaration matches 'int Game::takeIntegerInput()'
+   63 | int Game::takeIntegerInput(){
+      |     ^~~~
+..\src\game.cpp:63:5: note: no functions named 'int Game::takeIntegerInput()'
+In file included from ..\src\game.cpp:1:
+..\src\game.h:8:7: note: 'class Game' defined here
+    8 | class Game{
+      |       ^~~~
+..\src\game.cpp: In member function 'void Game::selectPlayers()':
+..\src\game.cpp:85:37: error: expected primary-expression before '<<' token
+   85 |    cout<<endl<<"Select player "<<i+!<<"of Team A- ";
+      |                                     ^~
+..\src\game.cpp:86:27: error: 'takeIntegerInput' was not declared in this scope; did you mean 'takeIntergerInput'?
+   86 |    int playerIndexTeamA = takeIntegerInput();
+      |                           ^~~~~~~~~~~~~~~~
+      |                           takeIntergerInput
+..\src\game.cpp:91:16: error: 'validateSelectedPlayer' was not declared in this scope
+   91 |    } else if (!validateSelectedPlayer(playerIndexTeamA)) {
+      |                ^~~~~~~~~~~~~~~~~~~~~~
+..\src\game.cpp:98:12: error: 'class Team' has no member named 'players'; did you mean 'player'?
+   98 |      teamA.players.push_back(teamAPlayer);
+      |            ^~~~~~~
+      |            player
+..\src\game.cpp:110:16: error: 'validateSelectedPlayer' was not declared in this scope
+  110 |    } else if (!validateSelectedPlayer(playerIndexTeamB)) {
+      |                ^~~~~~~~~~~~~~~~~~~~~~
+..\src\game.cpp:116:15: error: 'class Team' has no member named 'players'; did you mean 'player'?
+  116 |         teamB.players.push_back(teamBPlayer);
+      |               ^~~~~~~
+      |               player
+..\src\game.cpp:84:3: warning: label 'teamAselection' defined but not used [-Wunused-label]
+   84 |   teamAselection:
+      |   ^~~~~~~~~~~~~~
+..\src\game.cpp:90:11: error: label 'teamASelection' used but not defined
+   90 |      goto teamASelection;
+      |           ^~~~~~~~~~~~~~
+15:14:59 **** Incremental Build of configuration Debug for project virtual-cricket-game ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\game.o" "..\\src\\game.cpp" 
+..\src\game.cpp:63:5: error: no declaration matches 'int Game::takeIntegerInput()'
+   63 | int Game::takeIntegerInput(){
+      |     ^~~~
+..\src\game.cpp:63:5: note: no functions named 'int Game::takeIntegerInput()'
+In file included from ..\src\game.cpp:1:
+..\src\game.h:8:7: note: 'class Game' defined here
+    8 | class Game{
+      |       ^~~~
+..\src\game.cpp: In member function 'void Game::selectPlayers()':
+..\src\game.cpp:85:37: error: expected primary-expression before '<<' token
+   85 |    cout<<endl<<"Select player "<<i+!<<"of Team A- ";
+      |                                     ^~
+..\src\game.cpp:86:27: error: 'takeIntegerInput' was not declared in this scope; did you mean 'takeIntergerInput'?
+   86 |    int playerIndexTeamA = takeIntegerInput();
+      |                           ^~~~~~~~~~~~~~~~
+      |                           takeIntergerInput
+..\src\game.cpp:91:16: error: 'validateSelectedPlayer' was not declared in this scope
+   91 |    } else if (!validateSelectedPlayer(playerIndexTeamA)) {
+      |                ^~~~~~~~~~~~~~~~~~~~~~
+..\src\game.cpp:98:12: error: 'class Team' has no member named 'players'; did you mean 'player'?
+   98 |      teamA.players.push_back(teamAPlayer);
+      |            ^~~~~~~
+      |            player
+..\src\game.cpp:110:16: error: 'validateSelectedPlayer' was not declared in this scope
+  110 |    } else if (!validateSelectedPlayer(playerIndexTeamB)) {
+      |                ^~~~~~~~~~~~~~~~~~~~~~
+..\src\game.cpp:116:15: error: 'class Team' has no member named 'players'; did you mean 'player'?
+  116 |         teamB.players.push_back(teamBPlayer);
+      |               ^~~~~~~
+      |               player
+..\src\game.cpp:84:3: warning: label 'teamAselection' defined but not used [-Wunused-label]
+   84 |   teamAselection:
+      |   ^~~~~~~~~~~~~~
+..\src\game.cpp:90:11: error: label 'teamASelection' used but not defined
+   90 |      goto teamASelection;
+      |           ^~~~~~~~~~~~~~
+15:15:48 **** Incremental Build of configuration Debug for project virtual-cricket-game ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\game.o" "..\\src\\game.cpp" 
+..\src\game.cpp:63:5: error: no declaration matches 'int Game::takeIntegerInput()'
+   63 | int Game::takeIntegerInput(){
+      |     ^~~~
+..\src\game.cpp:63:5: note: no functions named 'int Game::takeIntegerInput()'
+In file included from ..\src\game.cpp:1:
+..\src\game.h:8:7: note: 'class Game' defined here
+    8 | class Game{
+      |       ^~~~
+..\src\game.cpp: In member function 'void Game::selectPlayers()':
+..\src\game.cpp:85:37: error: expected primary-expression before '<<' token
+   85 |    cout<<endl<<"Select player "<<i+!<<"of Team A- ";
+      |                                     ^~
+..\src\game.cpp:86:27: error: 'takeIntegerInput' was not declared in this scope; did you mean 'takeIntergerInput'?
+   86 |    int playerIndexTeamA = takeIntegerInput();
+      |                           ^~~~~~~~~~~~~~~~
+      |                           takeIntergerInput
+..\src\game.cpp:91:16: error: 'validateSelectedPlayer' was not declared in this scope
+   91 |    } else if (!validateSelectedPlayer(playerIndexTeamA)) {
+      |                ^~~~~~~~~~~~~~~~~~~~~~
+..\src\game.cpp:98:12: error: 'class Team' has no member named 'players'; did you mean 'player'?
+   98 |      teamA.players.push_back(teamAPlayer);
+      |            ^~~~~~~
+      |            player
+..\src\game.cpp:110:16: error: 'validateSelectedPlayer' was not declared in this scope
+  110 |    } else if (!validateSelectedPlayer(playerIndexTeamB)) {
+      |                ^~~~~~~~~~~~~~~~~~~~~~
+..\src\game.cpp:116:15: error: 'class Team' has no member named 'players'; did you mean 'player'?
+  116 |         teamB.players.push_back(teamBPlayer);
+      |               ^~~~~~~
+      |               player
+..\src\game.cpp:84:3: warning: label 'teamAselection' defined but not used [-Wunused-label]
+   84 |   teamAselection:
+      |   ^~~~~~~~~~~~~~
+..\src\game.cpp:90:11: error: label 'teamASelection' used but not defined
+   90 |      goto teamASelection;
+      |           ^~~~~~~~~~~~~~
+15:19:37 **** Incremental Build of configuration Debug for project virtual-cricket-game ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\virtual-cricket-game.o" "..\\src\\virtual-cricket-game.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\game.o" "..\\src\\game.cpp" 
+..\src\game.cpp:63:5: error: no declaration matches 'int Game::takeIntegerInput()'
+   63 | int Game::takeIntegerInput(){
+      |     ^~~~
+..\src\game.cpp:63:5: note: no functions named 'int Game::takeIntegerInput()'
+In file included from ..\src\game.cpp:1:
+..\src\game.h:8:7: note: 'class Game' defined here
+    8 | class Game{
+      |       ^~~~
+..\src\game.cpp: In member function 'void Game::selectPlayers()':
+..\src\game.cpp:85:37: error: expected primary-expression before '<<' token
+   85 |    cout<<endl<<"Select player "<<i+!<<"of Team A- ";
+      |                                     ^~
+..\src\game.cpp:86:27: error: 'takeIntegerInput' was not declared in this scope; did you mean 'takeIntergerInput'?
+   86 |    int playerIndexTeamA = takeIntegerInput();
+      |                           ^~~~~~~~~~~~~~~~
+      |                           takeIntergerInput
+..\src\game.cpp:91:16: error: 'validateSelectedPlayer' was not declared in this scope
+   91 |    } else if (!validateSelectedPlayer(playerIndexTeamA)) {
+      |                ^~~~~~~~~~~~~~~~~~~~~~
+..\src\game.cpp:98:12: error: 'class Team' has no member named 'players'; did you mean 'player'?
+   98 |      teamA.players.push_back(teamAPlayer);
+      |            ^~~~~~~
+      |            player
+..\src\game.cpp:110:16: error: 'validateSelectedPlayer' was not declared in this scope
+  110 |    } else if (!validateSelectedPlayer(playerIndexTeamB)) {
+      |                ^~~~~~~~~~~~~~~~~~~~~~
+..\src\game.cpp:116:15: error: 'class Team' has no member named 'players'; did you mean 'player'?
+  116 |         teamB.players.push_back(teamBPlayer);
+      |               ^~~~~~~
+      |               player
+15:19:44 **** Incremental Build of configuration Debug for project virtual-cricket-game ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\game.o" "..\\src\\game.cpp" 
+..\src\game.cpp:63:5: error: no declaration matches 'int Game::takeIntegerInput()'
+   63 | int Game::takeIntegerInput(){
+      |     ^~~~
+..\src\game.cpp:63:5: note: no functions named 'int Game::takeIntegerInput()'
+In file included from ..\src\game.cpp:1:
+..\src\game.h:8:7: note: 'class Game' defined here
+    8 | class Game{
+      |       ^~~~
+..\src\game.cpp: In member function 'void Game::selectPlayers()':
+..\src\game.cpp:85:37: error: expected primary-expression before '<<' token
+   85 |    cout<<endl<<"Select player "<<i+!<<"of Team A- ";
+      |                                     ^~
+..\src\game.cpp:86:27: error: 'takeIntegerInput' was not declared in this scope; did you mean 'takeIntergerInput'?
+   86 |    int playerIndexTeamA = takeIntegerInput();
+      |                           ^~~~~~~~~~~~~~~~
+      |                           takeIntergerInput
+..\src\game.cpp:91:16: error: 'validateSelectedPlayer' was not declared in this scope
+   91 |    } else if (!validateSelectedPlayer(playerIndexTeamA)) {
+      |                ^~~~~~~~~~~~~~~~~~~~~~
+..\src\game.cpp:98:12: error: 'class Team' has no member named 'players'; did you mean 'player'?
+   98 |      teamA.players.push_back(teamAPlayer);
+      |            ^~~~~~~
+      |            player
+..\src\game.cpp:110:16: error: 'validateSelectedPlayer' was not declared in this scope
+  110 |    } else if (!validateSelectedPlayer(playerIndexTeamB)) {
+      |                ^~~~~~~~~~~~~~~~~~~~~~
+..\src\game.cpp:116:15: error: 'class Team' has no member named 'players'; did you mean 'player'?
+  116 |         teamB.players.push_back(teamBPlayer);
+      |               ^~~~~~~
+      |               player
+20:47:33 **** Incremental Build of configuration Debug for project virtual-cricket-game ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\virtual-cricket-game.o" "..\\src\\virtual-cricket-game.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\game.o" "..\\src\\game.cpp" 
+..\src\game.cpp:63:5: error: no declaration matches 'int Game::takeIntegerInput()'
+   63 | int Game::takeIntegerInput(){
+      |     ^~~~
+..\src\game.cpp:63:5: note: no functions named 'int Game::takeIntegerInput()'
+In file included from ..\src\game.cpp:1:
+..\src\game.h:8:7: note: 'class Game' defined here
+    8 | class Game{
+      |       ^~~~
+..\src\game.cpp: In member function 'bool Game::validateSelectedPlayer(int)':
+..\src\game.cpp:79:18: error: 'class Team' has no member named 'players'; did you mean 'player'?
+   79 |  players = teamA.players;
+      |                  ^~~~~~~
+      |                  player
+..\src\game.cpp:87:21: error: 'class Team' has no member named 'players'; did you mean 'player'?
+   87 |     players = teamB.players;
+      |                     ^~~~~~~
+      |                     player
+..\src\game.cpp: In member function 'void Game::selectPlayers()':
+..\src\game.cpp:109:37: error: expected primary-expression before '<<' token
+  109 |    cout<<endl<<"Select player "<<i+!<<"of Team A- ";
+      |                                     ^~
+..\src\game.cpp:110:27: error: 'takeIntegerInput' was not declared in this scope; did you mean 'takeIntergerInput'?
+  110 |    int playerIndexTeamA = takeIntegerInput();
+      |                           ^~~~~~~~~~~~~~~~
+      |                           takeIntergerInput
+..\src\game.cpp:122:12: error: 'class Team' has no member named 'players'; did you mean 'player'?
+  122 |      teamA.players.push_back(teamAPlayer);
+      |            ^~~~~~~
+      |            player
+..\src\game.cpp:140:15: error: 'class Team' has no member named 'players'; did you mean 'player'?
+  140 |         teamB.players.push_back(teamBPlayer);
+      |               ^~~~~~~
+      |               player
+23:24:25 **** Incremental Build of configuration Debug for project virtual-cricket-game ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\game.o" "..\\src\\game.cpp" 
+..\src\game.cpp:63:5: error: no declaration matches 'int Game::takeIntegerInput()'
+   63 | int Game::takeIntegerInput(){
+      |     ^~~~
+..\src\game.cpp:63:5: note: no functions named 'int Game::takeIntegerInput()'
+In file included from ..\src\game.cpp:1:
+..\src\game.h:8:7: note: 'class Game' defined here
+    8 | class Game{
+      |       ^~~~
+..\src\game.cpp: In member function 'void Game::selectPlayers()':
+..\src\game.cpp:109:37: error: expected primary-expression before '<<' token
+  109 |    cout<<endl<<"Select player "<<i+!<<"of Team A- ";
+      |                                     ^~
+..\src\game.cpp:110:27: error: 'takeIntegerInput' was not declared in this scope; did you mean 'takeIntergerInput'?
+  110 |    int playerIndexTeamA = takeIntegerInput();
+      |                           ^~~~~~~~~~~~~~~~
+      |                           takeIntergerInput
+23:25:20 **** Incremental Build of configuration Debug for project virtual-cricket-game ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\virtual-cricket-game.o" "..\\src\\virtual-cricket-game.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\game.o" "..\\src\\game.cpp" 
+..\src\game.cpp:63:5: error: no declaration matches 'int Game::takeIntegerInput()'
+   63 | int Game::takeIntegerInput(){
+      |     ^~~~
+..\src\game.cpp:63:5: note: no functions named 'int Game::takeIntegerInput()'
+In file included from ..\src\game.cpp:1:
+..\src\game.h:8:7: note: 'class Game' defined here
+    8 | class Game{
+      |       ^~~~
+..\src\game.cpp: In member function 'void Game::selectPlayers()':
+..\src\game.cpp:109:37: error: expected primary-expression before '<<' token
+  109 |    cout<<endl<<"Select player "<<i+!<<"of Team A- ";
+      |                                     ^~
+..\src\game.cpp:110:27: error: 'takeIntegerInput' was not declared in this scope; did you mean 'takeIntergerInput'?
+  110 |    int playerIndexTeamA = takeIntegerInput();
+      |                           ^~~~~~~~~~~~~~~~
+      |                           takeIntergerInput
+23:25:38 **** Incremental Build of configuration Debug for project virtual-cricket-game ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\game.o" "..\\src\\game.cpp" 
+..\src\game.cpp:63:5: error: no declaration matches 'int Game::takeIntegerInput()'
+   63 | int Game::takeIntegerInput(){
+      |     ^~~~
+..\src\game.cpp:63:5: note: no functions named 'int Game::takeIntegerInput()'
+In file included from ..\src\game.cpp:1:
+..\src\game.h:8:7: note: 'class Game' defined here
+    8 | class Game{
+      |       ^~~~
+..\src\game.cpp: In member function 'void Game::selectPlayers()':
+..\src\game.cpp:109:37: error: expected primary-expression before '<<' token
+  109 |    cout<<endl<<"Select player "<<i+!<<"of Team A- ";
+      |                                     ^~
+..\src\game.cpp:110:27: error: 'takeIntegerInput' was not declared in this scope; did you mean 'takeIntergerInput'?
+  110 |    int playerIndexTeamA = takeIntegerInput();
+      |                           ^~~~~~~~~~~~~~~~
+      |                           takeIntergerInput
+23:26:12 **** Incremental Build of configuration Debug for project virtual-cricket-game ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\team.o" "..\\src\\team.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\game.o" "..\\src\\game.cpp" 
+..\src\game.cpp: In member function 'void Game::selectPlayers()':
+..\src\game.cpp:109:37: error: expected primary-expression before '<<' token
+  109 |    cout<<endl<<"Select player "<<i+!<<"of Team A- ";
+      |                                     ^~
+23:26:44 **** Incremental Build of configuration Debug for project virtual-cricket-game ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\virtual-cricket-game.o" "..\\src\\virtual-cricket-game.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\game.o" "..\\src\\game.cpp" 
+g++ -o virtual-cricket-game.exe "src\\game.o" "src\\player.o" "src\\team.o" "src\\virtual-cricket-game.o" 
+23:27:37 **** Incremental Build of configuration Debug for project virtual-cricket-game ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\virtual-cricket-game.o" "..\\src\\virtual-cricket-game.cpp" 
+g++ -o virtual-cricket-game.exe "src\\game.o" "src\\player.o" "src\\team.o" "src\\virtual-cricket-game.o" 
+23:28:28 **** Incremental Build of configuration Debug for project virtual-cricket-game ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\game.o" "..\\src\\game.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\virtual-cricket-game.o" "..\\src\\virtual-cricket-game.cpp" 
+g++ -o virtual-cricket-game.exe "src\\game.o" "src\\player.o" "src\\team.o" "src\\virtual-cricket-game.o" 
+Info: Nothing to build for virtual-cricket-game
+23:32:45 **** Incremental Build of configuration Debug for project virtual-cricket-game ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\virtual-cricket-game.o" "..\\src\\virtual-cricket-game.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\team.o" "..\\src\\team.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\player.o" "..\\src\\player.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\game.o" "..\\src\\game.cpp" 
+..\src\game.cpp: In member function 'void Game::showTeamPlayers()':
+..\src\game.cpp:155:25: error: 'playersPerTeam' was not declared in this scope; did you mean 'playerPerTeam'?
+  155 |     for (int i = 0; i < playersPerTeam; i++) {
+      |                         ^~~~~~~~~~~~~~
+      |                         playerPerTeam
+..\src\game.cpp: In member function 'void Game::bat()':
+..\src\game.cpp:302:19: error: 'class Team' has no member named 'wicketsLost'; did you mean 'wicketLost'?
+  302 |      battingTeam->wicketsLost = battingTeam->wicketsLost + 1;
+      |                   ^~~~~~~~~~~
+      |                   wicketLost
+..\src\game.cpp:302:46: error: 'class Team' has no member named 'wicketsLost'; did you mean 'wicketLost'?
+  302 |      battingTeam->wicketsLost = battingTeam->wicketsLost + 1;
+      |                                              ^~~~~~~~~~~
+      |                                              wicketLost
+..\src\game.cpp:307:41: error: 'class Team' has no member named 'wicketsLost'; did you mean 'wicketLost'?
+  307 |      int nextPlayerIndex = battingTeam->wicketsLost;
+      |                                         ^~~~~~~~~~~
+      |                                         wicketLost
+..\src\game.cpp: In member function 'bool Game::validateInningsScore()':
+..\src\game.cpp:316:20: error: 'class Team' has no member named 'wicketsLost'; did you mean 'wicketLost'?
+  316 |   if (battingTeam->wicketsLost == playersPerTeam || bowlingTeam->totalBallsBowled == maxBalls) {
+      |                    ^~~~~~~~~~~
+      |                    wicketLost
+..\src\game.cpp:316:35: error: 'playersPerTeam' was not declared in this scope; did you mean 'playerPerTeam'?
+  316 |   if (battingTeam->wicketsLost == playersPerTeam || bowlingTeam->totalBallsBowled == maxBalls) {
+      |                                   ^~~~~~~~~~~~~~
+      |                                   playerPerTeam
+..\src\game.cpp:321:22: error: 'class Team' has no member named 'wicketsLost'; did you mean 'wicketLost'?
+  321 |      << battingTeam->wicketsLost << " (" << bowlingTeam->totalBallsBowled
+      |                      ^~~~~~~~~~~
+      |                      wicketLost
+..\src\game.cpp:335:33: error: 'class Team' has no member named 'wicketsLost'; did you mean 'wicketLost'?
+  335 |         } else if (battingTeam->wicketsLost == playersPerTeam || bowlingTeam->totalBallsBowled == maxBalls) {
+      |                                 ^~~~~~~~~~~
+      |                                 wicketLost
+..\src\game.cpp:335:48: error: 'playersPerTeam' was not declared in this scope; did you mean 'playerPerTeam'?
+  335 |         } else if (battingTeam->wicketsLost == playersPerTeam || bowlingTeam->totalBallsBowled == maxBalls) {
+      |                                                ^~~~~~~~~~~~~~
+      |                                                playerPerTeam
+..\src\game.cpp: In member function 'void Game::showGameScorecard()':
+..\src\game.cpp:353:23: error: 'class Team' has no member named 'wicketsLost'; did you mean 'wicketLost'?
+  353 |       << battingTeam->wicketsLost << " (" << bowlingTeam->totalBallsBowled << ") | " << batsman->name
+      |                       ^~~~~~~~~~~
+      |                       wicketLost
+..\src\game.cpp: In member function 'void Game::showMatchSummary()':
+..\src\game.cpp:364:93: error: 'class Team' has no member named 'wicketsLost'; did you mean 'wicketLost'?
+  364 |     cout << battingTeam->name << " " << battingTeam->totalRunsScored << "-" << battingTeam->wicketsLost << " (" << bowlingTeam->totalBallsBowled << ")" << endl;
+      |                                                                                             ^~~~~~~~~~~
+      |                                                                                             wicketLost
+..\src\game.cpp:369:25: error: 'playersPerTeam' was not declared in this scope; did you mean 'playerPerTeam'?
+  369 |     for (int j = 0; j < playersPerTeam; j++) {
+      |                         ^~~~~~~~~~~~~~
+      |                         playerPerTeam
+..\src\game.cpp:379:93: error: 'class Team' has no member named 'wicketsLost'; did you mean 'wicketLost'?
+  379 |     cout << bowlingTeam->name << " " << bowlingTeam->totalRunsScored << "-" << bowlingTeam->wicketsLost << " (" << battingTeam->totalBallsBowled << ")" << endl;
+      |                                                                                             ^~~~~~~~~~~
+      |                                                                                             wicketLost
+..\src\game.cpp:384:25: error: 'playersPerTeam' was not declared in this scope; did you mean 'playerPerTeam'?
+  384 |     for (int i = 0; i < playersPerTeam; i++) {
+      |                         ^~~~~~~~~~~~~~
+      |                         playerPerTeam
+23:35:25 **** Incremental Build of configuration Debug for project virtual-cricket-game ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\game.o" "..\\src\\game.cpp" 
+..\src\game.cpp: In constructor 'Game::Game()':
+..\src\game.cpp:6:2: error: 'playerPerTeam' was not declared in this scope; did you mean 'playersPerTeam'?
+    6 |  playerPerTeam = 4;
+      |  ^~~~~~~~~~~~~
+      |  playersPerTeam
+..\src\game.cpp: In member function 'void Game::selectPlayers()':
+..\src\game.cpp:105:16: error: 'playerPerTeam' was not declared in this scope; did you mean 'playersPerTeam'?
+  105 |  for(int i=0;i<playerPerTeam;i++){
+      |                ^~~~~~~~~~~~~
+      |                playersPerTeam
+..\src\game.cpp: In member function 'void Game::bat()':
+..\src\game.cpp:302:19: error: 'class Team' has no member named 'wicketsLost'; did you mean 'wicketLost'?
+  302 |      battingTeam->wicketsLost = battingTeam->wicketsLost + 1;
+      |                   ^~~~~~~~~~~
+      |                   wicketLost
+..\src\game.cpp:302:46: error: 'class Team' has no member named 'wicketsLost'; did you mean 'wicketLost'?
+  302 |      battingTeam->wicketsLost = battingTeam->wicketsLost + 1;
+      |                                              ^~~~~~~~~~~
+      |                                              wicketLost
+..\src\game.cpp:307:41: error: 'class Team' has no member named 'wicketsLost'; did you mean 'wicketLost'?
+  307 |      int nextPlayerIndex = battingTeam->wicketsLost;
+      |                                         ^~~~~~~~~~~
+      |                                         wicketLost
+..\src\game.cpp: In member function 'bool Game::validateInningsScore()':
+..\src\game.cpp:316:20: error: 'class Team' has no member named 'wicketsLost'; did you mean 'wicketLost'?
+  316 |   if (battingTeam->wicketsLost == playersPerTeam || bowlingTeam->totalBallsBowled == maxBalls) {
+      |                    ^~~~~~~~~~~
+      |                    wicketLost
+..\src\game.cpp:321:22: error: 'class Team' has no member named 'wicketsLost'; did you mean 'wicketLost'?
+  321 |      << battingTeam->wicketsLost << " (" << bowlingTeam->totalBallsBowled
+      |                      ^~~~~~~~~~~
+      |                      wicketLost
+..\src\game.cpp:335:33: error: 'class Team' has no member named 'wicketsLost'; did you mean 'wicketLost'?
+  335 |         } else if (battingTeam->wicketsLost == playersPerTeam || bowlingTeam->totalBallsBowled == maxBalls) {
+      |                                 ^~~~~~~~~~~
+      |                                 wicketLost
+..\src\game.cpp: In member function 'void Game::showGameScorecard()':
+..\src\game.cpp:353:23: error: 'class Team' has no member named 'wicketsLost'; did you mean 'wicketLost'?
+  353 |       << battingTeam->wicketsLost << " (" << bowlingTeam->totalBallsBowled << ") | " << batsman->name
+      |                       ^~~~~~~~~~~
+      |                       wicketLost
+..\src\game.cpp: In member function 'void Game::showMatchSummary()':
+..\src\game.cpp:364:93: error: 'class Team' has no member named 'wicketsLost'; did you mean 'wicketLost'?
+  364 |     cout << battingTeam->name << " " << battingTeam->totalRunsScored << "-" << battingTeam->wicketsLost << " (" << bowlingTeam->totalBallsBowled << ")" << endl;
+      |                                                                                             ^~~~~~~~~~~
+      |                                                                                             wicketLost
+..\src\game.cpp:379:93: error: 'class Team' has no member named 'wicketsLost'; did you mean 'wicketLost'?
+  379 |     cout << bowlingTeam->name << " " << bowlingTeam->totalRunsScored << "-" << bowlingTeam->wicketsLost << " (" << battingTeam->totalBallsBowled << ")" << endl;
+      |                                                                                             ^~~~~~~~~~~
+      |                                                                                             wicketLost
+23:35:57 **** Incremental Build of configuration Debug for project virtual-cricket-game ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\virtual-cricket-game.o" "..\\src\\virtual-cricket-game.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\player.o" "..\\src\\player.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\game.o" "..\\src\\game.cpp" 
+..\src\game.cpp: In constructor 'Game::Game()':
+..\src\game.cpp:6:2: error: 'playerPerTeam' was not declared in this scope; did you mean 'playersPerTeam'?
+    6 |  playerPerTeam = 4;
+      |  ^~~~~~~~~~~~~
+      |  playersPerTeam
+..\src\game.cpp: In member function 'void Game::selectPlayers()':
+..\src\game.cpp:105:16: error: 'playerPerTeam' was not declared in this scope; did you mean 'playersPerTeam'?
+  105 |  for(int i=0;i<playerPerTeam;i++){
+      |                ^~~~~~~~~~~~~
+      |                playersPerTeam
+..\src\game.cpp: In member function 'void Game::bat()':
+..\src\game.cpp:302:19: error: 'class Team' has no member named 'wicketsLost'; did you mean 'wicketLost'?
+  302 |      battingTeam->wicketsLost = battingTeam->wicketsLost + 1;
+      |                   ^~~~~~~~~~~
+      |                   wicketLost
+..\src\game.cpp:302:46: error: 'class Team' has no member named 'wicketsLost'; did you mean 'wicketLost'?
+  302 |      battingTeam->wicketsLost = battingTeam->wicketsLost + 1;
+      |                                              ^~~~~~~~~~~
+      |                                              wicketLost
+..\src\game.cpp:307:41: error: 'class Team' has no member named 'wicketsLost'; did you mean 'wicketLost'?
+  307 |      int nextPlayerIndex = battingTeam->wicketsLost;
+      |                                         ^~~~~~~~~~~
+      |                                         wicketLost
+..\src\game.cpp: In member function 'bool Game::validateInningsScore()':
+..\src\game.cpp:316:20: error: 'class Team' has no member named 'wicketsLost'; did you mean 'wicketLost'?
+  316 |   if (battingTeam->wicketsLost == playersPerTeam || bowlingTeam->totalBallsBowled == maxBalls) {
+      |                    ^~~~~~~~~~~
+      |                    wicketLost
+..\src\game.cpp:321:22: error: 'class Team' has no member named 'wicketsLost'; did you mean 'wicketLost'?
+  321 |      << battingTeam->wicketsLost << " (" << bowlingTeam->totalBallsBowled
+      |                      ^~~~~~~~~~~
+      |                      wicketLost
+..\src\game.cpp:335:33: error: 'class Team' has no member named 'wicketsLost'; did you mean 'wicketLost'?
+  335 |         } else if (battingTeam->wicketsLost == playersPerTeam || bowlingTeam->totalBallsBowled == maxBalls) {
+      |                                 ^~~~~~~~~~~
+      |                                 wicketLost
+..\src\game.cpp: In member function 'void Game::showGameScorecard()':
+..\src\game.cpp:353:23: error: 'class Team' has no member named 'wicketsLost'; did you mean 'wicketLost'?
+  353 |       << battingTeam->wicketsLost << " (" << bowlingTeam->totalBallsBowled << ") | " << batsman->name
+      |                       ^~~~~~~~~~~
+      |                       wicketLost
+..\src\game.cpp: In member function 'void Game::showMatchSummary()':
+..\src\game.cpp:364:93: error: 'class Team' has no member named 'wicketsLost'; did you mean 'wicketLost'?
+  364 |     cout << battingTeam->name << " " << battingTeam->totalRunsScored << "-" << battingTeam->wicketsLost << " (" << bowlingTeam->totalBallsBowled << ")" << endl;
+      |                                                                                             ^~~~~~~~~~~
+      |                                                                                             wicketLost
+..\src\game.cpp:379:93: error: 'class Team' has no member named 'wicketsLost'; did you mean 'wicketLost'?
+  379 |     cout << bowlingTeam->name << " " << bowlingTeam->totalRunsScored << "-" << bowlingTeam->wicketsLost << " (" << battingTeam->totalBallsBowled << ")" << endl;
+      |                                                                                             ^~~~~~~~~~~
+      |                                                                                             wicketLost
+23:38:39 **** Incremental Build of configuration Debug for project virtual-cricket-game ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\team.o" "..\\src\\team.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\virtual-cricket-game.o" "..\\src\\virtual-cricket-game.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\game.o" "..\\src\\game.cpp" 
+..\src\game.cpp: In constructor 'Game::Game()':
+..\src\game.cpp:6:2: error: 'playerPerTeam' was not declared in this scope; did you mean 'playersPerTeam'?
+    6 |  playerPerTeam = 4;
+      |  ^~~~~~~~~~~~~
+      |  playersPerTeam
+..\src\game.cpp: In member function 'void Game::selectPlayers()':
+..\src\game.cpp:105:16: error: 'playerPerTeam' was not declared in this scope; did you mean 'playersPerTeam'?
+  105 |  for(int i=0;i<playerPerTeam;i++){
+      |                ^~~~~~~~~~~~~
+      |                playersPerTeam
+23:38:44 **** Incremental Build of configuration Debug for project virtual-cricket-game ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\game.o" "..\\src\\game.cpp" 
+..\src\game.cpp: In constructor 'Game::Game()':
+..\src\game.cpp:6:2: error: 'playerPerTeam' was not declared in this scope; did you mean 'playersPerTeam'?
+    6 |  playerPerTeam = 4;
+      |  ^~~~~~~~~~~~~
+      |  playersPerTeam
+..\src\game.cpp: In member function 'void Game::selectPlayers()':
+..\src\game.cpp:105:16: error: 'playerPerTeam' was not declared in this scope; did you mean 'playersPerTeam'?
+  105 |  for(int i=0;i<playerPerTeam;i++){
+      |                ^~~~~~~~~~~~~
+      |                playersPerTeam
+23:40:36 **** Incremental Build of configuration Debug for project virtual-cricket-game ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\game.o" "..\\src\\game.cpp" 
+..\src\game.cpp: In constructor 'Game::Game()':
+..\src\game.cpp:6:2: error: 'playerPerTeam' was not declared in this scope; did you mean 'playersPerTeam'?
+    6 |  playerPerTeam = 4;
+      |  ^~~~~~~~~~~~~
+      |  playersPerTeam
+23:40:39 **** Incremental Build of configuration Debug for project virtual-cricket-game ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\game.o" "..\\src\\game.cpp" 
+..\src\game.cpp: In constructor 'Game::Game()':
+..\src\game.cpp:6:2: error: 'playerPerTeam' was not declared in this scope; did you mean 'playersPerTeam'?
+    6 |  playerPerTeam = 4;
+      |  ^~~~~~~~~~~~~
+      |  playersPerTeam
+23:40:59 **** Incremental Build of configuration Debug for project virtual-cricket-game ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\game.o" "..\\src\\game.cpp" 
+g++ -o virtual-cricket-game.exe "src\\game.o" "src\\player.o" "src\\team.o" "src\\virtual-cricket-game.o" 
+Info: Nothing to build for virtual-cricket-game

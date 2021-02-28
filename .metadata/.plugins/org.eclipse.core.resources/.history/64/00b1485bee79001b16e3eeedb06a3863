@@ -1,0 +1,18 @@
+#include "game.h"
+using namespace std;
+
+int main() {
+	Game game;
+
+	game.welcome();
+	cout<<"\nPress Enter to Continue"<<endl;
+	getchar();
+
+	game.showAllPlayers();
+	cout<<"Hello"<<endl;
+	cout<<"\nPress Enter to Continue"<<endl;
+	getchar();
+
+	game.selectPlayers();
+	return 0;
+}
